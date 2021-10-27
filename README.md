@@ -33,8 +33,8 @@ Estes graficos mostram a proporcionalidade entre tamanho e largura das sepalas e
 <img src="Screenshot_6.png">
 <img src="Screenshot_7.png">
 
-Acredito que pelo menos para as Versicolors exista uma associação linear, pois essa correlação é mais acentuada nelas, tanto nas Setosas quanto nas Virgnicas essa 
-correlação parece ser baixa, isso é perceptível ao observar os graficos.
+Acredito que sim mesmo essa associação sendo bem mais perceptivel Versicolors, tanto nas Setosas quanto nas Virgnicas essa 
+correlação parece ser baixa mas ainda sim perceptivel, isso é perceptível ao observar os graficos.
 
 Correlação de Pearson Setosas:		0.33163		codigo r: cor(iris[1:50,3],iris[1:50,4])
 
