@@ -3,7 +3,7 @@
 <img src="Screenshot_1.png">
 
 
-A) Para comparações de tamanho entende-se a área que as petalas ou sepalas ocupam.
+<h3>A)</h3> Para comparações de tamanho entende-se a área que as petalas ou sepalas ocupam.
 
 Em média as virginicas são maiores tanto em sepalas quanto em petalas.
 
@@ -20,3 +20,7 @@ duas tendem a se assemelhar.
 
 O desvio padrão das 3 espécies é baixa, estando todas em torno de 20% da amplitude das
 medições (desvio padrão / amplitude).
+
+<h3>B)</h3>
+
+<img src="Screenshot_2.png"><img src="Screenshot_3.png">
