@@ -9,7 +9,7 @@ Em média as virginicas são maiores tanto em sepalas quanto em petalas.
 
 As sepalas setosas e versicolors tem tamanho semelhante mas a tanto a media quanto
 a mediana mostram que as sepalas versicolors e virgnicas são mais ovaladas do 
-que as setosas pois a proporção entre comprimento e largura delas é maior, neste sentido 
+que as setosas pois a proporção da largura para o comprimento entre elas é menor, neste sentido 
 virginicas e versicolors tendem a se assemelhar.
 
 Os tamanhos das petalas das 3 tendem a seguir esta ordem: Virginica > Versicolor >
