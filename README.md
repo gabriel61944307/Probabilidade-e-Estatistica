@@ -22,12 +22,7 @@ O desvio padrão das 3 espécies é baixa, estando todas em torno de 20% da ampl
 medições (desvio padrão / amplitude).
 
 <h3>B)</h3>
-
- <ul>
-     <li>
-        <img src="Screenshot_2.png">
-         <img src="Screenshot_3.png">
-    </li>
-</ul>
+<img src="Screenshot_2.png">
+<img src="Screenshot_3.png">
 
 Estes graficos mostram a proporcionalidade entre tamanho e largura das sepalas e petalas das flores, ao ver esse grafico a conclusão é que a interpretação dos dados na questão A tende a estar correta.
