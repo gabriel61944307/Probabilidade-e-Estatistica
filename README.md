@@ -1,5 +1,8 @@
 # Probabilidade-e-Estatistica Atividade 4
 
+<img src="Screenshot_1.png">
+
+
 A) Para comparações de tamanho entende-se a área que as petalas ou sepalas ocupam.
 
 Em média as virginicas são maiores tanto em sepalas quanto em petalas.
