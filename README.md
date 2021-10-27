@@ -26,3 +26,9 @@ medições (desvio padrão / amplitude).
 <img src="Screenshot_3.png">
 
 Estes graficos mostram a proporcionalidade entre tamanho e largura das sepalas e petalas das flores, ao ver esse grafico a conclusão é que a interpretação dos dados na questão A tende a estar correta.
+
+<h3>C)</h3>
+<img src="Screenshot_4.png">
+<img src="Screenshot_5.png">
+<img src="Screenshot_6.png">
+<img src="Screenshot_7.png">
