@@ -33,7 +33,7 @@ largura_petala_versicolor
 largura_petala_virginica = iris[101:150, 4]
 largura_petala_virginica
 
-resumo_descritivo = matrix(nrow = 12, ncol = 3)
+resumo_descritivo = matrix(nrow = 16, ncol = 3)
 
 #Medias das Setosas
 resumo_descritivo[1,1] = sum(comprimento_sepala_setosa)/50
@@ -55,6 +55,20 @@ resumo_descritivo[4,3] = sum(largura_petala_virginica)/50
 
 
 #ordenando todos os vetores
+
+#Setosa
+comprimento_sepala_setosa = sort(comprimento_sepala_setosa)
+largura_sepala_setosa = sort(largura_sepala_setosa)
+comprimento_petala_setosa = sort(comprimento_petala_setosa)
+largura_petala_setosa = sort(largura_petala_setosa)
+
+#Versicolor
+comprimento_sepala_versicolor = sort(comprimento_sepala_versicolor)
+largura_sepala_versicolor = sort(largura_sepala_versicolor)
+comprimento_petala_versicolor = sort(comprimento_petala_versicolor)
+largura_petala_versicolor = sort(largura_petala_versicolor)
+
+#Virginica
 comprimento_sepala_virginica = sort(comprimento_sepala_virginica)
 largura_sepala_virginica = sort(largura_sepala_virginica)
 comprimento_petala_virginica = sort(comprimento_petala_virginica)
@@ -84,7 +98,7 @@ resumo_descritivo[10,1] = sd(largura_sepala_setosa)
 resumo_descritivo[11,1] = sd(comprimento_petala_setosa)
 resumo_descritivo[12,1] = sd(largura_petala_setosa)
 
-#Desvio Padrão das Versicolor
+#Desvio Padrão das Versicolors
 resumo_descritivo[9,2] = sd(comprimento_sepala_versicolor)
 resumo_descritivo[10,2] = sd(largura_sepala_versicolor)
 resumo_descritivo[11,2] = sd(comprimento_petala_versicolor)
@@ -96,6 +110,23 @@ resumo_descritivo[10,3] = sd(largura_sepala_virginica)
 resumo_descritivo[11,3] = sd(comprimento_petala_virginica)
 resumo_descritivo[12,3] = sd(largura_petala_virginica)
 
+#Amplitude das Setosas
+resumo_descritivo[13,1] = comprimento_sepala_setosa[50] - comprimento_sepala_setosa[1]
+resumo_descritivo[14,1] = largura_sepala_setosa[50] - largura_sepala_setosa[1]
+resumo_descritivo[15,1] = comprimento_petala_setosa[50] - comprimento_petala_setosa[1]
+resumo_descritivo[16,1] = largura_petala_setosa[50] - largura_petala_setosa[1]
+
+#Amplitude das Versicolors
+resumo_descritivo[13,2] = comprimento_sepala_versicolor[50] - comprimento_sepala_versicolor[1]
+resumo_descritivo[14,2] = largura_sepala_versicolor[50] - largura_sepala_versicolor[1]
+resumo_descritivo[15,2] = comprimento_petala_versicolor[50] - comprimento_petala_versicolor[1]
+resumo_descritivo[16,2] = largura_petala_versicolor[50] - largura_petala_versicolor[1]
+
+#Amplitude das Virginicas
+resumo_descritivo[13,3] = comprimento_sepala_virginica[50] - comprimento_sepala_virginica[1]
+resumo_descritivo[14,3] = largura_sepala_virginica[50] - largura_sepala_virginica[1]
+resumo_descritivo[15,3] = comprimento_petala_virginica[50] - comprimento_petala_virginica[1]
+resumo_descritivo[16,3] = largura_petala_virginica[50] - largura_petala_virginica[1]
 
 
 rownames(resumo_descritivo) <- paste(c("Media_Comprimento_Sepala", 
@@ -109,7 +140,11 @@ rownames(resumo_descritivo) <- paste(c("Media_Comprimento_Sepala",
 						"DesvioPadrao_Comprimento_Sepala",
 						"DesvioPadrao_Largura_Sepala",
 						"DesvioPadrao_Comprimento_Petala",
-						"DesvioPadrao_Largura_Petala"))
+						"DesvioPadrao_Largura_Petala",
+						"Amplitude_Comprimento_Sepala",
+						"Amplitude_Largura_Sepala",
+						"Amplitude_Comprimento_Petala",
+						"Amplitude_Largura_Petala"))
 
 
 
